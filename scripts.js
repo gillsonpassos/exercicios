@@ -130,3 +130,30 @@ const userName = "Matheus";
 const age = 30;
 
 console.log(`o nome do usuario é ${userName} e ele tem ${age} anos`);
+
+// 6 destructuring
+const fruits = ["Maçã", "Laranja", "Mamão"];
+
+const [f1, f2, f3] = fruits;
+
+console.log(f1);
+
+console.log(f3);
+
+const productDetails = {
+  name: "Mouse",
+  price: 39.99,
+  category: "Perifericos",
+  color: "cinza",
+};
+
+const {
+  name: productName,
+  price,
+  category: productCategory,
+  color,
+} = productDetails;
+
+console.log(
+  `o nome do produto é ${productName}, custa R$${price}, pertence a categoria ${productCategory}, e é da cor ${color}`
+);
