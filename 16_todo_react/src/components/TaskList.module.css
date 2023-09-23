@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   max-width: 400px;
-  margin: 0;
+  margin: 0 auto;
   border-bottom: 1px solid #ccc;
   padding: 1em;
+  align-items: center;
 }
 
 .details {
@@ -32,6 +33,7 @@
   color: #fff;
   padding: 0.4em;
   transition: 0.5em;
+  align-items: center;
 }
 
 .actions i:hover {
